@@ -4,12 +4,14 @@
     <head>
         <title>Matt's Site</title>
         <link href="css/main.css" rel="stylesheet" type="text/css"/>
+        <link href="css/mobile-menu.css" rel="stylesheet" type="text/css" />
         <link href="css/font-awesome.css" rel="stylesheet" type="text/css"/>
         
         <meta charset="UTF-8" />
         <meta name="description" content="Welcome to my first official website. I am a student coder." />
         <meta name="keywords" content="matthew, matt, hovsepian, student coder, first official website, fresno, clovis, matthew hovsepian fresno" />
         <meta name="author" content="Matthew Hovsepian" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0; maximum-scale=1.0; miniumum-scale=1.0; user-scalable=no;">
         
     </head>
     <body>
@@ -21,7 +23,9 @@
                     
                     <!--<h1><a href="index.html" id="logo">Matthew Hovsepian</a></h1>-->
                 </figure>
-                <nav id="menu">
+                <nav id="menu" class="mobile">
+                    <a></a>
+                    <input type="checkbox" id="nav"/><label for="nav">MENU</label>
                     <ul>
                         <li class="currentPage"><a href="index.html" title="Home Page" >Home</a></li>
                         <li><a href="about.html" title="About Page" >About Me</a></li>

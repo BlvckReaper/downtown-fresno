@@ -58,9 +58,9 @@ body {
     .cookies {
      height:90%;
     }
-    .mainbody {
+    mainBody {
         width:100%;
-        margin:20px auto;
+        padding:20px;
     }
 }
 

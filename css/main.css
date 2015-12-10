@@ -22,6 +22,8 @@ GLOBAL STYLES
 
 /*--------------------------------------------------------------------------------------------------------------------------------------------- GLOBAL STYLES -------------*/
 
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
 html, body {
     height:100%;
 }
@@ -474,32 +476,31 @@ textarea {
     border-radius:15px;
     padding:25px;
     width:25%;
+}
+nav ul ui {
+    display:block;
+    float:right;
+    width:50%;
+    text-align:left;
+    background-color:#00000;
+    text-indent:15px;
+}
+nav > ul > ui {
     
 }
 
 /*---------------------------------------------------------------------------------------------------------------------------END OF FORMS STYLES*/
 
-/*------------------------MEDIA QUERIES----------------------------*/
+/*---------------------------------------------------MEDIA QUERIES----------------------------------------*/
 
-@media screen and (max-width: 1024px) {
-    body {
-     background-color:#6600ff;
+@media screen and (max-width:1024px) {
+    .columnA, .columnB, .columnC {
+        width:auto;
+        margin:1% auto;
     }
-    .columnA, .columnB, .column {
-     width:auto;
-     margin:1% auto;
-    }
-    h3 {
-     font-size:2em;
-    }
-    .columnC {
-     display:none;
-    }
-    .imgFull {
-     height:90%;
-    }
-    .mainbody {
-        width:100%;
-        margin:20px auto;
+    
+    .mainWidth {
+        width:90%;
+        padding:20px;
     }
 }
